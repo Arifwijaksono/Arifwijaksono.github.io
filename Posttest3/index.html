@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Posstest_2 Pemrograman Web</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo"><li><h1>@Jwalk.id</h1></li></div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <div class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Aboutme</a></li>
+          <li><a href="#aboutme">Contact</a></li>
+          <li><a href="#product"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          <label class="switch">
+            <input type="checkbox" id="checkbox" value="true" onchange="check()">
+            <span class="slider round"></span>
+          </label>
+          <!-- <label for="checkbox_toggle" class="tokosepatu">&#9776;</label> -->
+        </div>
+        
+      </ul>
+    </nav>
+
+    <!-- main content -->
+    <!-- iklan -->
+    <div id="konten">
+      <!-- <div class="isi"> -->
+        <div class="row">
+          <div class="col-2">
+            <img src="iklan1.webp" alt="pict1" width="600px"/>
+          </div>
+          <div class="col-2">
+            <img src="iklan2.webp" alt="pict2" width="600px" />
+          </div>
+        </div>
+    
+        <!-- produk -->
+        <div id="product" class="container">
+          <h2>PRODUK</h2>
+            <div class="card">
+              <img src="menu2.webp" class="content" />
+              <div class="deskrip">
+                <span>sepatu AERO Street </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 149.900</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu3.webp" class="content" />
+              <div class="deskrip">
+                <span>sepatu AERO Street</span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 139.900</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu8.jpeg" class="content" />
+              <div class="deskrip">
+                <span>sepatu AERO Street</span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 129.900</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu6.jpeg" class="content" />
+              <div class="deskrip">
+                <span>sepatu AERO Street </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 119.900</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu10.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 350.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu11.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 400.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu12.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 400.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu13.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 250.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu14.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 300.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu16.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 450.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu17.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 237.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+            <div class="card">
+              <img src="menu18.jpg" class="content" />
+              <div class="deskrip">
+                <span>sepatu Sneakers </span>
+                <div>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                  <i class="fa-regular fa-star star"></i>
+                </div>
+                <h4>Rp. 165.000</h5>
+                <h5>Samarinda</h5>
+              </div>
+              <p><i class="fa-solid fa-cart-arrow-down cart"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div id="footerr" class="footer">
+        <p>copyright &copy;2022 <a href="aboutme.html">by Arif Wijaksono_2109106129</a>  </p>
+     </div>
+    </div>
+
+   <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
